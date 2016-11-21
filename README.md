@@ -12,6 +12,15 @@ repo init -u git://github.com/lj50036/platform_manifest_twrp_omni.git -b twrp-6.
 repo sync
 
 
+or
+
+
+mkdir OmniROM
+cd OmniROM
+repo init -u git://github.com/omnirom/android.git -b android-7.0
+repo sync
+. build/envsetup.sh; brunch <device_name>
+
 
 
 
