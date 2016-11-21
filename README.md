@@ -1,6 +1,24 @@
 # device_ThL_V9
 ThL V9 (MT6575) device config folder for building TWRP from source
 
+Using https://github.com/lj50036/platform_manifest_twrp_omni
+instead of https://github.com/omnirom/android_bootable_recovery
+
+This project is downloaded using "repo" https://source.android.com/source/using-repo.html
+
+mkdir TWRP
+cd TWRP
+repo init -u git://github.com/lj50036/platform_manifest_twrp_omni.git -b twrp-6.0
+repo sync
+
+or
+
+
+
+
+Generic build notes are here
+http://forum.xda-developers.com/showthread.php?p=32965365#post32965365
+
 
 <b>Hardware</b> (from http://bestmobs.com/thl-v9/)
 
