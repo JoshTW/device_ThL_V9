@@ -11,7 +11,6 @@ cd TWRP
 repo init -u git://github.com/lj50036/platform_manifest_twrp_omni.git -b twrp-6.0
 repo sync
 
-or
 
 
 
